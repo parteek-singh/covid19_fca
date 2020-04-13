@@ -1,0 +1,30 @@
+<mat-card class="card mat-elevation-z24" style="height: 100%;">
+    <mat-card-header>
+        <div style="width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;">
+            <div>
+                <mat-card-title>Top 5 Countries</mat-card-title>
+                <mat-card-subtitle>Category by Tweets, False claims,Bot generated</mat-card-subtitle>
+            </div>
+            <div>
+                <mat-form-field>
+                    <mat-select [(value)]="selected">
+                        <mat-option value="today">Today</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+    </mat-card-header>
+
+    <mat-card-content>
+
+        <ngx-charts-bar-vertical-2d [view]="view" [scheme]="colorScheme" [results]="multi" [gradient]="gradient"
+            [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+            [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [legendTitle]="legendTitle"
+            (select)="onSelect($event)" (activate)="onActivate($event)" (deactivate)="onDeactivate($event)">
+        </ngx-charts-bar-vertical-2d>
+    </mat-card-content>
+
+</mat-card>

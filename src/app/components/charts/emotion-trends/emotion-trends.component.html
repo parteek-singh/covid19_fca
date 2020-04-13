@@ -1,0 +1,23 @@
+<mat-label style="display: flex;
+justify-content: center;
+font-size: large;
+font-weight: 300;
+margin-top: 2%;margin-bottom: 5%;">Last
+    7 days Emotion Trends</mat-label>
+
+<!-- <div>
+
+    <div>
+        <mat-form-field>
+            <mat-label>State</mat-label>
+            <mat-select [(value)]="selected">
+                <mat-option value="maha">Maharashtra</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+</div> -->
+
+<ngx-charts-line-chart [view]="view" [scheme]="colorScheme" [legend]="legend" [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel" [xAxis]="xAxis" [yAxis]="yAxis" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+    [timeline]="timeline" [results]="multi" (select)="onSelect($event)" (activate)="onActivate($event)" (deactivate)="onDeactivate($event)">
+</ngx-charts-line-chart>

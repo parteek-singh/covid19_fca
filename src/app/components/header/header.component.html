@@ -1,0 +1,9 @@
+<div style="display:flex;justify-content: center;" *ngIf="loading">
+    <mat-spinner diameter="40"></mat-spinner>
+</div>
+<div class="section" *ngIf="!loading">
+    <app-card [data]="tweetData"></app-card>
+    <app-card [data]="fakeTweetData"></app-card>
+    <app-card [data]="botGenrated"></app-card>
+    <app-card [data]="sadSentimentData"></app-card>
+</div>

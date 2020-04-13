@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Total Tweets",
+        "value": "100",
+        "avatar": "notifications_active"
+    },
+    {
+        "title": "Bot generated",
+        "value": "100",
+        "avatar": "poll"
+    },
+    {
+        "title": "False Claims",
+        "value": "20",
+        "avatar": "poll"
+    },
+    {
+        "title": "Sad Emotion",
+        "value": "10",
+        "avatar": "sentiment_very_dissatisfied"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Sadness",
+        "value": 8940000
+    },
+    {
+        "name": "Enthusiasm",
+        "value": 5000000
+    },
+    {
+        "name": "Netural",
+        "value": 7200000
+    },
+    {
+        "name": "Worry",
+        "value": 6200000
+    },
+    {
+        "name": "Surprise",
+        "value": 4200000
+    },
+    {
+        "name": "Love",
+        "value": 8200000
+    },
+    {
+        "name": "Fun",
+        "value": 4200000
+    },
+    {
+        "name": "Hate",
+        "value": 8200000
+    }
+]

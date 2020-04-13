@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Germany",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 8940000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 7300000
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    },
+    {
+        "name": "USA",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 8270000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 7870000
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    },
+    {
+        "name": "France",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 5800000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 5000002
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    },
+    {
+        "name": "India",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 5800000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 5000002
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    },
+    {
+        "name": "Italy",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 6800000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 5800000
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    },
+    {
+        "name": "Others",
+        "series": [
+            {
+                "name": "Total tweet",
+                "value": 6800000
+            },
+            {
+                "name": "Bot gererated",
+                "value": 7300000
+            },
+            {
+                "name": "Fake Tweets",
+                "value": 5800000
+            },
+            {
+                "name": "Fake event",
+                "value": 7300000
+            }
+        ]
+    }
+]
